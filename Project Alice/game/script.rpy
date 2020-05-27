@@ -15,6 +15,22 @@ default watchbook = False
 default watchdiary = False
 
 
+# Day4 variables
+define A = Character("Alice", image="alice")
+define W = Character("Whitley", image="whitley")
+default AliceAngry=0    #for the part1 Conversation
+default AliceUnhappy=0  # for the part1 conversation
+default HelpAlice=False #for the part2 Conversation
+default finishedMission = False # for the part3 exploration
+default ResponceAlice = False   # For the part3 Conversation
+default AliceInPain = 0 # for the part3 conversation
+default AliceHateU = False  # There is a for emotional
+default AliceFeltSad = False    # for the emotional
+default AliceFeltPain = False   # for the emotional
+default FinishThisBoringDay = False # for the ending
+
+
+
 # image definitions
 image alice happy = "Alice.png"
 image bunny = "bunny.png"
